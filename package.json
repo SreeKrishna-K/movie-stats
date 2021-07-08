@@ -1,0 +1,23 @@
+{
+  "name": "movies-stats",
+  "version": "1.0.0",
+  "description": "Information and statistics about movies and TV Shows",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "14.17.0"
+  },
+  "author": "sreekrishna",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
